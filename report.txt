@@ -1,0 +1,32 @@
+Assignment 1 Report
+
+Name:
+
+1. Performance on the development data with 100% of the training data
+1a. spam precision:0.99
+1b. spam recall: 0.97
+1c. spam F1 score: 0.98
+1d. ham precision:0.94
+1e. ham recall: 0.98
+1f. ham F1 score: 0.96
+
+I created a new directory with 852 spam and 852 ham files that constitute 10% of the data.
+
+2. Performance on the development data with 10% of the training data
+2a. spam precision: 0.98
+2b. spam recall: 0.96
+2c. spam F1 score: 0.97
+2d. ham precision: 0.90
+2e. ham recall: 0.96
+2f. ham F1 score: 0.93
+
+3. I created a list of stop words. While training, I skipped over the words that were a part of that list resulting in a slightly smaller vocabulary.
+While classifying, I skipped over those words again.
+
+4. Best performance results based on enhancements. Note that these could be the same or worse than the standard implementation.
+4a. spam precision: 0.99
+4b. spam recall: 0.97
+4c. spam F1 score: 0.98
+4d. ham precision: 0.94
+4e. ham recall: 0.98
+4f. ham F1 score: 0.96
